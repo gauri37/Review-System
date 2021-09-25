@@ -1,0 +1,78 @@
+.singleAnime {
+  background: #fff;
+  border-radius: 4px;
+  margin: 5px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+}
+.singleAnime:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.singleAnime img {
+  width: 100vw;
+  height: 250px;
+  object-fit: cover;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.animeInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.animeInfo h4 {
+  margin-top: 0px;
+}
+.singleAnime button {
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  color: rgb(73, 166, 233);
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: px;
+}
+.tourSeason {
+  color: rgb(73, 166, 233);
+  background: rgb(235, 247, 255);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+.singleAnime footer {
+  padding: 24px 32px;
+}
+.singleAnime .deletebtn {
+  display: inline-block;
+  width: 200px;
+  margin: 16px auto 0 16px;
+  color: rgb(187, 37, 37);
+  letter-spacing: 1.6px;
+  background: transparent;
+  border: 1px solid rgb(187, 37, 37);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.singleAnime .backbtn {
+  display: inline-block;
+  width: 200px;
+  margin: 16px auto 0 16px;
+  color: rgb(187, 37, 37);
+  letter-spacing: 1.6px;
+  background: transparent;
+  border: 1px solid rgb(187, 37, 37);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(187, 37, 37);
+}
+
+p {
+  font-weight: bolder;
+}
